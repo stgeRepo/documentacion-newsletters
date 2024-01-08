@@ -1,0 +1,390 @@
+
+/*stage css*/
+@media only screen and (min-width:1px){
+    .outlook-image {
+        display: none !important;
+    }
+    
+    .height-no-outlook-230 {
+        height: 230px !important;
+    }
+    
+    .image-hidded-in-outlook {
+        display: block !important;
+    }
+    
+    .links-fff a {
+        color: #ffffff !important;
+    }   
+}
+
+@media only screen and (max-width: 400px) {
+    .br-nomobile {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    .br-nodesktop {
+        display: none;
+    }
+}
+
+/* Dark Mode Stage dk*/
+@media (prefers-color-scheme: dark) {
+
+    /* Shows Dark Mode-Only Content, Like Images */
+    .dark-img {
+        display: block !important;
+        width: auto !important;
+        overflow: visible !important;
+        float: none !important;
+        max-height: inherit !important;
+        max-width: inherit !important;
+        line-height: auto !important;
+        margin-top: 0px !important;
+        visibility: inherit !important;
+    }
+
+    /* Hides Light Mode-Only Content, Like Images */
+    .light-img {
+        display: none;
+        display: none !important;
+    }
+
+    /* Custom Dark Mode Font Colors */
+    h1,
+    h2,
+    h3 {
+        color: #ffffff !important;
+    }
+
+    /* Custom Dark Mode Font Colors */
+    p,
+    span,
+    a,
+    b {
+        color: #cccccc !important;
+    }
+
+    /* aplica color al background*/
+    .dark-bg-0 {
+        background-color: #000000 !important;
+    }
+
+    .dark-bg-0-5 {
+        background-color: #0a0a0a !important;
+    }
+
+    .dark-bg-1 {
+        background-color: #111111 !important;
+    }
+
+    .dark-bg-1-5 {
+        background-color: #1a1a1a !important;
+    }
+
+    .dark-bg-2 {
+        background-color: #222222 !important;
+    }
+
+    .dark-bg-2-5 {
+        background-color: #2a2a2a !important;
+    }
+
+    .dark-bg-3 {
+        background-color: #333333 !important;
+    }
+
+    .dark-bg-3-5 {
+        background-color: #3a3a3a !important;
+    }
+
+    .dark-bg-ald {
+        background-color: #191629 !important;
+    }
+
+    .dark-bg-oscuro-erl {
+        background-color: #4d2217 !important;
+    }
+
+    .dark-bg-ff {
+        background-color: #ffffff !important;
+    }
+
+    .dark-bg-red-erl,
+    .dark-bg-red-erl * {
+        background-color: #E74115 !important;
+    }
+
+    /* aplica color por defecto a las p internas */
+    .dark-bg-0 p,
+    .dark-bg-1 p,
+    .dark-bg-2 p,
+    .dark-bg-3 p,
+    .dark-bg-0-5 p,
+    .dark-bg-1-5 p,
+    .dark-bg-2-5 p,
+    .dark-bg-3-5 p,
+    .dark-bg-ald p {
+        color: #cccccc !important;
+    }
+
+    .dark-bg-ff p {
+        color: #222222 !important;
+    }
+
+    .dark-bg-yellow-erl p,
+    .dark-bg-yellow-erl a,
+    .dark-bg-yellow-erl-pollo p,
+    .dark-bg-yellow-erl-pollo a {
+        color: #4d2217 !important;
+    }
+    
+    
+    /* aplica color del texto y de las o internas*/
+    .dark-color-ff,
+    .dark-color-ff * {
+        color: #ffffff !important;
+    }
+
+    .dark-color-ee,
+    .dark-color-ee * {
+        color: #eeeeee !important;
+    }
+
+    .dark-color-dd,
+    .dark-color-dd * {
+        color: #dddddd !important;
+    }
+
+    .dark-color-cc,
+    .dark-color-cc * {
+        color: #cccccc !important;
+    }
+
+    .dark-color-bb,
+    .dark-color-bb * {
+        color: #bbbbbb !important;
+    }
+
+    .dark-color-aa,
+    .dark-color-aa * {
+        color: #bbbbbb !important;
+    }
+
+    .dark-color-00,
+    .dark-color-00 * {
+        color: #000000 !important;
+    }
+
+    .dark-color-oscuro-erl,
+    .dark-color-oscuro-erl * {
+        color: #4d2217 !important;
+    }
+
+    .dark-color-yellow-ald,
+    .dark-color-yellow-ald * {
+        color: #ffd200 !important;
+    }
+
+    .dark-red-erl,
+    .dark-red-erl * {
+        color: #E74115 !important;
+    }
+
+    .dark-red-stage,
+    .dark-red-stage * {
+        color: #c9142f !important;
+    }
+
+    .dark-bg-yellow-erl,
+    .dark-bg-yellow-erl * {
+        background-color: #fecd00 !important;
+    }
+    .dark-bg-yellow-erl-pollo,
+    .dark-bg-yellow-erl-pollo * {
+        background-color: #feea08 !important;
+    }
+
+    .dark-bg-red-erl,
+    .dark-bg-red-erl * {
+        background-color: #E74115 !important;
+    }
+
+    
+}
+
+
+
+    [data-ogsc] .dark-img {
+        display: block !important;
+        width: auto !important;
+        overflow: visible !important;
+        float: none !important;
+        max-height: inherit !important;
+        max-width: inherit !important;
+        line-height: auto !important;
+        margin-top: 0px !important;
+        visibility: inherit !important;
+    }
+
+    /* Hides Light Mode-Only Content, Like Images */
+    [data-ogsc] .light-img {
+        display: none;
+        display: none !important;
+    }
+
+    /* Custom Dark Mode Font Colors */
+    [data-ogsc] h1,
+    [data-ogsc] h2,
+    [data-ogsc] h3 {
+        color: #ffffff !important;
+    }
+
+    /* Custom Dark Mode Font Colors */
+    [data-ogsc] p,
+    [data-ogsc] span,
+    [data-ogsc] a,
+    [data-ogsc] b {
+        color: #cccccc !important;
+    }
+
+    /* aplica color al background*/
+    /* aplica color al background*/
+    [data-ogsc] .dark-bg-0 {
+        background-color: #000000 !important;
+    }
+
+    [data-ogsc] .dark-bg-0-5 {
+        background-color: #0a0a0a !important;
+    }
+
+    [data-ogsc] .dark-bg-1 {
+        background-color: #111111 !important;
+    }
+
+    [data-ogsc] .dark-bg-1-5 {
+        background-color: #1a1a1a !important;
+    }
+
+    [data-ogsc] .dark-bg-2 {
+        background-color: #222222 !important;
+    }
+
+    [data-ogsc] .dark-bg-2-5 {
+        background-color: #2a2a2a !important;
+    }
+
+    [data-ogsc] .dark-bg-3 {
+        background-color: #333333 !important;
+    }
+
+    [data-ogsc] .dark-bg-3-5 {
+        background-color: #3a3a3a !important;
+    }
+
+    [data-ogsc] .dark-bg-ald {
+        background-color: #191629 !important;
+    }
+
+    [data-ogsc] .dark-bg-oscuro-erl {
+        background-color: #4d2217 !important;
+    }
+
+    [data-ogsc] .dark-bg-ff {
+        background-color: #ffffff !important;
+    }
+
+    /* aplica color por defecto a las p internas */
+    [data-ogsc] .dark-bg-0 p,
+    [data-ogsc] .dark-bg-1 p,
+    [data-ogsc] .dark-bg-2 p,
+    [data-ogsc] .dark-bg-3 p,
+    [data-ogsc] .dark-bg-0-5 p,
+    [data-ogsc] .dark-bg-1-5 p,
+    [data-ogsc] .dark-bg-2-5 p,
+    [data-ogsc] .dark-bg-3-5 p,
+    [data-ogsc] .dark-bg-ald p {
+        color: #ccccc !important;
+    }
+
+    [data-ogsc] .dark-bg-ff p {
+        color: #222222 !important;
+    }
+
+    [data-ogsc] .dark-bg-yellow-erl p,
+    [data-ogsc] .dark-bg-yellow-erl a,
+    [data-ogsc] .dark-bg-yellow-erl-pollo p,
+    [data-ogsc] .dark-bg-yellow-erl-pollo a {
+        color: #4d2217 !important;
+    }
+
+    /* aplica color del texto y de las o internas*/
+    [data-ogsc] .dark-color-ff,
+    [data-ogsc] .dark-color-ff * {
+        color: #ffffff !important;
+    }
+
+    [data-ogsc] .dark-color-ee,
+    [data-ogsc] .dark-color-ee * {
+        color: #eeeeee !important;
+    }
+
+    [data-ogsc] .dark-color-dd,
+    [data-ogsc] .dark-color-dd * {
+        color: #dddddd !important;
+    }
+
+    [data-ogsc] .dark-color-cc,
+    [data-ogsc] .dark-color-cc * {
+        color: #cccccc !important;
+    }
+
+    [data-ogsc] .dark-color-bb,
+    [data-ogsc] .dark-color-bb * {
+        color: #bbbbbb !important;
+    }
+
+    [data-ogsc] .dark-color-aa,
+    [data-ogsc] .dark-color-aa * {
+        color: #bbbbbb !important;
+    }
+
+    [data-ogsc].dark-color-yellow-ald,
+    [data-ogsc].dark-color-yellow-ald * {
+        color: #ffd200 !important;
+    }
+
+    [data-ogsc] .dark-color-00,
+    [data-ogsc] .dark-color-00 * {
+        color: #000000 !important;
+    }
+
+    [data-ogsc] .dark-color-oscuro-erl,
+    [data-ogsc] .dark-color-oscuro-erl * {
+        color: #4d2217 !important;
+    }
+
+    [data-ogsc] .dark-red-erl,
+    [data-ogsc] .dark-red-erl * {
+        color: #E74115 !important;
+    }
+
+    [data-ogsc] .dark-red-stage,
+    [data-ogsc] .dark-red-stage * {
+        color: #c9142f !important;
+    }
+
+    [data-ogsc] .dark-bg-yellow-erl,
+    [data-ogsc] .dark-bg-yellow-erl * {
+        background-color: #fecd00 !important;
+    }
+    [data-ogsc] .dark-bg-yellow-erl-pollo,
+    [data-ogsc] .dark-bg-yellow-erl-pollo * {
+        background-color: #feea08 !important;
+    }
+    [data-ogsc] .dark-bg-red-erl,
+    [data-ogsc] .dark-bg-red-erl * {
+        background-color: #E74115 !important;
+    }
