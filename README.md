@@ -9,7 +9,7 @@
 2. Añadir estilos css al final de la etiqueta `<style>` del `<head>`
 	(Código al final de la nota)
 
-##Logo con dos versiones
+## Logo con dos versiones
 1. Creamos la sección/estructura (tabla) con el logo normal con PNG con el fondo blanco (para que los darkmodes que no se pueden editar)
 2. Añadimos al `<td>` que envuelve la imagen la clase `light-img`
 3. Seleccionamos el `<tr>` que envuelve el <td> del punto anterior y lo duplicamos (esta será la versión darkmode del logo)
