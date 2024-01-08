@@ -1,4 +1,4 @@
-# Documentacion Newsletters Stage
+# Documentacion Newsletters
 ## Custom Dark mode
 1. Para hablitar el poder controlar el darkmode  añadir en header después de los otros `<metas>`:
 ```markdown
