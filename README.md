@@ -8,8 +8,13 @@
 6. Revisar en apple mail
 7. Revisar en gmail
 8. (esto no estoy seguro) en el html generado, borramos nuestros custom styles y pegamos de nuevo los que tenemos en la hoja de estilos master. Esto lo hago porque creo qeu al compilar el html elimina alguno.
+<<<<<<< HEAD
 9. Añadir __imagen pixel__ al final, justo antes del cierre de la etiuqeta `</body>`
 `<img src="[%url:unique-count; 'https://mediaportal.stage-entertainment.com/m/6d0a01ed0be14042/original/1x1.gif']" alt="pixel" width="1" height="1" style="display:none;" />`
+=======
+9. Aañador __imagen pixel__ al final, justo antes del cierre de la etiuqeta `</body>`  
+` <img src="[%url:unique-count; 'https://mediaportal.stage-entertainment.com/m/6d0a01ed0be14042/original/1x1.gif']" alt="pixel" width="1" height="1" style="display:none;" />`
+>>>>>>> 431bf94ec1a7d0d836334a3c2d65d69b055380fe
 
 
 
@@ -99,9 +104,12 @@ Si quiere forzarse a un color concreto usar en el texto la clase de color:
     .dark-red-stage * {
         color: #c9142f !important;
     }
+<<<<<<< HEAD
 
 
 ## Botones
 
 Especial atención en la versión outlook
 Si en outlook no aparece la última línea revisar el height de esta versión
+=======
+>>>>>>> 431bf94ec1a7d0d836334a3c2d65d69b055380fe
