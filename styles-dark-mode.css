@@ -107,6 +107,13 @@
     .dark-bg-oscuro-erl {
         background-color: #4d2217 !important;
     }
+    .dark-bg-aladdin {
+        background-color: #472a76 !important;
+    }
+    .dark-bg-rey-leon {
+        background-color: #ffcc00 !important;
+    }
+
 
     .dark-bg-ff {
         background-color: #ffffff !important;
@@ -137,7 +144,8 @@
     .dark-bg-yellow-erl p,
     .dark-bg-yellow-erl a,
     .dark-bg-yellow-erl-pollo p,
-    .dark-bg-yellow-erl-pollo a {
+    .dark-bg-yellow-erl-pollo a,
+    .dark-bg-yellow-erl *{
         color: #4d2217 !important;
     }
     
@@ -291,6 +299,13 @@
     [data-ogsc] .dark-bg-oscuro-erl {
         background-color: #4d2217 !important;
     }
+    [data-ogsc]  .dark-bg-aladdin {
+        background-color: #472a76 !important;
+    }
+    [data-ogsc]  .dark-bg-rey-leon {
+        background-color: #ffcc00 !important;
+    }
+
 
     [data-ogsc] .dark-bg-ff {
         background-color: #ffffff !important;
@@ -316,7 +331,8 @@
     [data-ogsc] .dark-bg-yellow-erl p,
     [data-ogsc] .dark-bg-yellow-erl a,
     [data-ogsc] .dark-bg-yellow-erl-pollo p,
-    [data-ogsc] .dark-bg-yellow-erl-pollo a {
+    [data-ogsc] .dark-bg-yellow-erl-pollo a,
+    [data-ogsc] .dark-bg-yellow-erl-pollo * {
         color: #4d2217 !important;
     }
 
