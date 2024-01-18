@@ -102,3 +102,14 @@ Si quiere forzarse a un color concreto usar en el texto la clase de color:
 
 Especial atención en la versión outlook
 Si en outlook no aparece la última línea revisar el height de esta versión
+
+## Conrtar linea de texto solo en desktop
+
+Añadir esto en el html del texto.
+<br class="br-nomobile">&nbsp;
+
+ 
+
+ ## Tips y solución de problemas
+ El espacio entre párrafos en "stripo>apariencia>espacion inferior del párrafo" si se da en el hetml falla en outlook
+ A veces me ha fallado el dark mode en apple mail, la solución ha sido con los blancos #ffffff. Solución poner casi blanco #fefefe

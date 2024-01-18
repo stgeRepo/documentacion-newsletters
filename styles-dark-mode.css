@@ -133,7 +133,16 @@
     .dark-bg-1-5 p,
     .dark-bg-2-5 p,
     .dark-bg-3-5 p,
-    .dark-bg-ald p {
+    .dark-bg-ald p,
+    .dark-bg-0 *,
+    .dark-bg-1 *,
+    .dark-bg-2 *,
+    .dark-bg-3 *,
+    .dark-bg-0-5 *,
+    .dark-bg-1-5 *,
+    .dark-bg-2-5 *,
+    .dark-bg-3-5 *,
+    .dark-bg-ald * {
         color: #cccccc !important;
     }
 
@@ -320,8 +329,17 @@
     [data-ogsc] .dark-bg-1-5 p,
     [data-ogsc] .dark-bg-2-5 p,
     [data-ogsc] .dark-bg-3-5 p,
-    [data-ogsc] .dark-bg-ald p {
-        color: #ccccc !important;
+    [data-ogsc] .dark-bg-ald p,
+    [data-ogsc] .dark-bg-0 *,
+    [data-ogsc] .dark-bg-1 *,
+    [data-ogsc] .dark-bg-2 *,
+    [data-ogsc] .dark-bg-3 *,
+    [data-ogsc] .dark-bg-0-5 *,
+    [data-ogsc] .dark-bg-1-5 *,
+    [data-ogsc] .dark-bg-2-5 *,
+    [data-ogsc] .dark-bg-3-5 *,
+    [data-ogsc] .dark-bg-ald * {
+        color: #cccccc !important;
     }
 
     [data-ogsc] .dark-bg-ff p {

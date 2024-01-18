@@ -13,5 +13,7 @@
 			"path": "../../../../Volumes/J JULIO-23/TRABAJOS/El Rey León/ONLINE/Newsletters ERL"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "newsletters ALD"
+	}
 }
